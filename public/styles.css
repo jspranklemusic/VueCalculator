@@ -1,0 +1,66 @@
+.num{
+    flex:1;
+    border:1px solid grey;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    border-radius:25px;
+    font-size:2rem;
+    flex-basis: 20%;
+    margin:5px;
+    cursor: pointer;
+
+}
+.num2{
+    flex:2;
+    border:1px solid grey;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    border-radius:25px;
+    font-size:2rem;
+    margin:5px;
+    flex-basis: 43%;
+    cursor: pointer;
+}
+.num3{
+    flex:1;
+    border:1px solid grey;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    border-radius:25px;
+    font-size:2rem;
+    margin:5px;
+    flex-basis: 20%;
+    cursor: pointer;
+}
+.bg-blackish{
+    background:#0d0d0d;
+}
+.num:active{
+    background:black;
+}
+.num.bg-success:active{
+    background:green !important;
+}
+.num.bg-danger:active{
+    background:red !important;
+}
+.num2:active{
+    background:black;
+}
+.num3:active{
+    background:black;
+}
+.num3.bg-success:active{
+    background:green !important;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
